@@ -166,7 +166,6 @@ import os
 
 Course = collections.namedtuple('Course', 'title room building')
 
-
 def main():
     folder = os.path.dirname(__file__)
     file = os.path.join(folder, 'xml_data', 'reed.xml')
@@ -198,7 +197,6 @@ def main():
 
     for c in room_courses:
         print("* " + c)
-
 
 if __name__ == '__main__':
     main()
